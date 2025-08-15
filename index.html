@@ -34,6 +34,10 @@
    . 1 Compuerta 
    . Cables de conexion</p>
 
+   <h2>Link de compuertas logicas AND</h2>
+
+   <a href="https://www.tinkercad.com/things/fnAcFjLCJBJ-cl-and">Visita el sitio</a>
+
 <h2>Materiales Compuerta OR</h2>
 
 <P>. Compuerta
@@ -43,6 +47,10 @@
    . Resistencias
    . Cables de conexion </P>
 
+   <h2>Link de compuertas logicas OR</h2>
+
+   <a href="https://www.tinkercad.com/things/fdNfhPXSI1B-cl-or">Visita el sitio</a>
+
 <h2>Materiales Compuerta NOT</h2>
 
 <P>. Compuerta
@@ -50,12 +58,12 @@
     . LEDs
     . Resistencia
     . Cables de conexion
-    . Fuente de alimentacion 5v
+    . Fuente de alimentacion 9v
     . GND </P>
 
-<h2>Link de Compuertas</h2>
+    <h2>Link de compuertas logicas NOT</h2>
 
- <a href="https://www.tinkercad.com/things/fnAcFjLCJBJ-epic-turing">Visita el sitio</a>
+    <a href="https://www.tinkercad.com/things/5YjuDeY1xGI-cl-not-">Visita el sitio</a>
 
 <h2>Analisis</h2>
 
@@ -220,7 +228,138 @@
      práctico de la lógica secuencial y control de hardware.</p>
 
 
-     <h1>Actividad 2 Tinkercad </h1>
-     <h2>Encender un led si la distancia es de 100 </h2>
+<h1>Actividad 2 Tinkercad </h1>
+<h1>Encender un led si la distancia es de 100 </h1>
+
+<h2>Objetivo General</h2>
+
+<p>Diseñar y simular un sistema de medición de distancia con sensor ultrasónico, que active un LED si la distancia medida es mayor a 100 cm 
+    y una alarma sonora si la distancia es menor o igual a 100 cm, utilizando Arduino en Tinkercad.</p>
+
+<h2>Objetivo Especifico</h2>
+
+<p>.Activar el LED como indicador visual cuando la distancia sea mayor a 100 cm.
+    .Comprobar el funcionamiento del sistema en una simulación en Tinkercad.</p>
+
+<h2>Materiales</h2>
+
+<p>. 1 Arduino
+    . 1 Protoboard
+    . Led
+    . Zumbador 
+    . Cables de conexion 
+    . Sensor ultrasonico
+    . Resistencia </p>
+
+    <h2>Link de la Actividad</h2>
+
+    <a href="https://www.tinkercad.com/things/d5eLBkITL1M-cristhian-sanchez-">Visita el sitio </a>
+
+<h2>Analisis</h2>
+
+<p>El sensor ultrasónico HC-SR04 mide la distancia enviando una señal de ultrasonido y calculando el tiempo que tarda en regresar. 
+    El Arduino procesa esta información y determina si la distancia medida es mayor o menor que 100 cm. Según el resultado, 
+    se activa un indicador visual (LED) o una alarma sonora (buzzer).</p>
+
+<h2>Discusion</h2>
+
+<p>Este sistema es útil en aplicaciones de seguridad, control de acceso y automatización, 
+    ya que permite detectar la proximidad de un objeto y emitir alertas. La precisión del sistema depende de la correcta calibración
+    del sensor y del código implementado. El uso de Tinkercad facilita la simulación antes de llevarlo a la práctica física.</p>
+
+<h2>Conclusion</h2>
+
+<p>Se logró diseñar un sistema funcional en Tinkercad que enciende un LED cuando la distancia es mayor a 100 cm y activa un buzzer 
+    cuando la distancia es menor o igual a 100 cm. Esto demuestra la utilidad del sensor ultrasónico en aplicaciones de detección 
+    de proximidad y control de alertas.</p>
+
+<h1>Colocar tu nombre en la primera fila, en la segunda fila el apellido y en las esquinas cuatro caracteres dieferentes</h1>
+
+<h2>Objetivo General</h2>
+
+<p>Diseñar y simular un sistema con Arduino y pantalla LCD que muestre en la primera fila el nombre, en la segunda fila el apellido y en las cuatro esquinas un carácter diferente, utilizando Tinkercad.</p>
+
+<h2>Objetivos Especificos</h2>
+
+<p>. Conectar correctamente la pantalla LCD de 16x2 al Arduino UNO
+    . Programar la pantalla para mostrar el nombre en la primera fila y el apellido en la segunda.
+    . Configurar caracteres diferentes en cada una de las cuatro esquinas del display.</p>
+
+<h2>Materiales</h2>
+
+<p>. 1 Arduino
+    . Pantalla LCD 16 x 2
+    . Protoboard
+    . Cables de conexion</p>
+
+<h2>Link de la actividad</h2>
+
+<a href="https://www.tinkercad.com/things/h3rqTC3sZZR-actividad-1">Visita el sitio</a>
+
+<h2>Analisis</h2>
+
+<p>El módulo LCD 16x2 permite mostrar hasta 32 caracteres distribuidos en dos filas de 16 columnas. 
+    Mediante la librería LiquidCrystal de Arduino se pueden posicionar caracteres en coordenadas específicas,
+    lo que permite colocar texto y símbolos en cualquier parte de la pantalla, incluyendo las esquinas.</p>
+
+<h2>Discusion</h2>
+
+<p>La implementación de este montaje demuestra cómo combinar la electrónica básica con la programación para mostrar 
+    información personalizada. Usar caracteres especiales en las esquinas es una forma de aprovechar el direccionamiento 
+    de la pantalla LCD y personalizar su presentación.</p>
+
+<h2>Conclusion</h2>
+
+<p>Se logró mostrar el nombre en la primera fila, el apellido en la segunda y caracteres diferentes en cada esquina de la pantalla LCD. 
+    Esto valida el correcto funcionamiento de la conexión física y la programación en Arduino para manipular displays de texto.</p>
+
+<h1>En la primera fila mostrar la palabra distancia, en la segunda fila mostrar el valor de la distancia y concatenar cm
+    si la distancia es mayor de 100 encender un foco, caso contrario encender una alarma </h1>
+
+<h2>Objetivo General</h2>
+
+<p>Diseñar y simular un sistema de medición de distancia con Arduino, que muestre en un display LCD la palabra "Distancia" en la primera fila y el valor en centímetros en la segunda, además de encender un foco si la distancia es mayor a 100 cm y activar una alarma si es menor o igual a 100 cm.</p>
+
+<h2>Objetivos Especificos</h2>
+
+<p>. Conectar y programar un sensor ultrasónico para medir distancias.
+    . Mostrar la palabra “Distancia” en la primera fila de la pantalla LCD y el valor en cm en la segunda fila.
+    . Configurar el encendido de un foco cuando la distancia supere los 100 cm.
+    . Configurar la activación de una alarma (buzzer) cuando la distancia sea menor o igual a 100 cm.</p>
+
+<h2>Materiales</h2>
+
+<p>. 1 Arduino
+    . Pantalla LCD 16x2
+    . Sensor ultrasónico
+    . Foco LED
+    . Resistencia (220 Ω) para el LED
+    . Zumbador
+    . Protoboard
+    . Cables de conexión</p>
+
+<h2>Link de la actividad</h2>
+
+<a href="https://www.tinkercad.com/things/cUBt1MZlB0h-actividad-2">Visita el sitio</a>
+
+<h2>Analisis</h2>
+
+<p>El sensor ultrasónico mide la distancia mediante el tiempo de retorno de un pulso de sonido. 
+    El Arduino procesa esa lectura y la envía al display LCD, donde se muestra el texto y el valor. 
+    El sistema activa salidas distintas según la condición de la distancia: luz si es mayor a 100 cm o alarma si es menor o igual. 
+    Esto permite implementar un sistema de advertencia visual y sonora simultáneamente.</p>
+
+<h2>Discusion</h2>
+
+<p>El sistema combina entrada de datos (sensor ultrasónico) con salida visual (LCD y LED) y salida sonora (buzzer), 
+    lo que lo hace versátil para aplicaciones como estacionamiento asistido o detección de proximidad. 
+    El umbral de 100 cm puede modificarse para adaptarse a diferentes necesidades. La simulación previa en Tinkercad asegura que la conexión
+     y el código funcionen antes de implementarlo físicamente.</p>
+
+<h2>Conclusion</h2>
+
+<p>Se implementó con éxito un sistema capaz de medir y mostrar distancias en un LCD, encendiendo un foco o una alarma según la condición establecida. 
+    El proyecto demuestra la integración efectiva de varios componentes y la importancia de la programación en Arduino para automatizar tareas de control.</p>
+
 </body>
 </html>
